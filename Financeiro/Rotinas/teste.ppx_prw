@@ -1,0 +1,48 @@
+#line 1 "D:\TEMP\TECNOCRYO\TOTVS\P11\INCLUDES\Protheus.ch"
+#line 1 "D:\TEMP\TECNOCRYO\TOTVS\P11\INCLUDES\Dialog.ch"
+#line 28 "Protheus.ch"
+#line 1 "D:\TEMP\TECNOCRYO\TOTVS\P11\INCLUDES\Font.ch"
+#line 29 "Protheus.ch"
+#line 1 "D:\TEMP\TECNOCRYO\TOTVS\P11\INCLUDES\PTMenu.ch"
+#line 31 "Protheus.ch"
+#line 1 "D:\TEMP\TECNOCRYO\TOTVS\P11\INCLUDES\Print.ch"
+#line 33 "Protheus.ch"
+#line 1 "D:\TEMP\TECNOCRYO\TOTVS\P11\INCLUDES\Colors.ch"
+#line 35 "Protheus.ch"
+#line 1 "D:\TEMP\TECNOCRYO\TOTVS\P11\INCLUDES\Folder.ch"
+#line 37 "Protheus.ch"
+#line 1 "D:\TEMP\TECNOCRYO\TOTVS\P11\INCLUDES\msobject.ch"
+#line 38 "Protheus.ch"
+#line 1 "D:\TEMP\TECNOCRYO\TOTVS\P11\INCLUDES\VKey.ch"
+#line 42 "Protheus.ch"
+#line 1 "D:\TEMP\TECNOCRYO\TOTVS\P11\INCLUDES\WinApi.ch"
+#line 44 "Protheus.ch"
+#line 1 "D:\TEMP\TECNOCRYO\TOTVS\P11\INCLUDES\FWCommand.ch"
+#line 47 "Protheus.ch"
+#line 1 "D:\TEMP\TECNOCRYO\TOTVS\P11\INCLUDES\FWCSS.CH"
+#line 50 "Protheus.ch"
+#line 2 "t:\totvs\p11\MYPROJ~2\FINANC~1\rotinas\teste.prw"
+#line 1 "D:\TEMP\TECNOCRYO\TOTVS\P11\INCLUDES\Totvs.ch"
+#line 1 "D:\TEMP\TECNOCRYO\TOTVS\P11\INCLUDES\protheus.ch"
+#line 4 "t:\totvs\p11\MYPROJ~2\FINANC~1\rotinas\teste.prw"
+Function U_Testam()
+Local oBol := TWBolSantan():New()
+
+	DbSelectArea("SE1")
+	dbSetFilter({||  E1_FILIAL="0201" .And. E1_PREFIXO="DEB"},'E1_FILIAL="0201" .And. E1_PREFIXO="DEB"' )
+
+	DbGoTop()
+
+	While !SE1->(Eof())
+		If oBol:CartValida()
+			oBol:Preparar()
+			oBol:Montar()
+			oBol:VerPDF()
+		EndIf
+
+		SE1->(DbSkip())
+	End
+
+	DbSelectArea("SE1")
+	dbClearFilter()
+Return

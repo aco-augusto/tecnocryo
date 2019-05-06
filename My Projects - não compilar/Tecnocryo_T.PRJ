@@ -1,0 +1,241 @@
+Group Tecnocryo_T
+   Version=7.0
+   VSSDB=
+   HasProperties=1
+   Properties
+      BeforeApply=
+      AfterApply=
+      Icon=
+      ID=
+      Version=
+      PalmName=
+      OutPut=
+   End
+   ProjectsCount=6
+   Project Compras
+      FoldersCount=3
+      Folder Gatilhos
+         VSSPath=Nova Pasta1
+         FilesCount=3
+         File \TOTVS\P11\My Projects\Compras\Gatilhos\TecGt004.prw
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Compras\Gatilhos\TecGt003.prw
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Compras\Gatilhos\TecGt005.prw
+             Type=T
+         End
+      End
+      Folder Rotinas
+         VSSPath=Nova Pasta2
+         FilesCount=1
+         File \TOTVS\P11\My Projects\Compras\Rotinas\TWImpNfe.prw
+             Type=T
+         End
+      End
+      Folder Pontos de Entrada
+         VSSPath=Nova Pasta3
+         FilesCount=1
+         File \TOTVS\P11\My Projects\Compras\Pontos de Entrada\MT100TOK.prw
+             Type=T
+         End
+      End
+   End
+   Project Faturamento
+      FoldersCount=7
+      Folder Classes
+         VSSPath=Nova Pasta1
+         FilesCount=5
+         File \TOTVS\P11\My Projects\Faturamento\Classes\TGetDados.PRW
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Faturamento\Classes\IMPPDF.PRW
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Faturamento\Classes\TWAmarraProdutos.PRW
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Faturamento\Classes\TWCryoPorderTerceiro.PRW
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Faturamento\Classes\TWFormularioDEB.PRW
+             Type=T
+         End
+      End
+      Folder Gatilhos
+         VSSPath=Nova Pasta2
+         FilesCount=2
+         File \TOTVS\P11\My Projects\Faturamento\Gatilhos\TecGt002.prw
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Faturamento\Gatilhos\TecGt001.prw
+             Type=T
+         End
+      End
+      Folder NF-e Sefaz
+         VSSPath=Nova Pasta3
+         FilesCount=3
+         File \TOTVS\P11\My Projects\Faturamento\NF-e Sefaz\nfesefaz.prw
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Faturamento\NF-e Sefaz\danfeiii.prw
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Faturamento\NF-e Sefaz\danfeii.prw
+             Type=T
+         End
+      End
+      Folder Pontos de Entrada
+         VSSPath=Nova Pasta4
+         FilesCount=9
+         File \TOTVS\P11\My Projects\Faturamento\Pontos de Entrada\PE01NFESEFAZ.PRW
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Faturamento\Pontos de Entrada\MA410MNU.prw
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Faturamento\Pontos de Entrada\MA030TOK.prw
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Faturamento\Pontos de Entrada\M410lDel.prw
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Faturamento\Pontos de Entrada\M030INC.prw
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Faturamento\Pontos de Entrada\M030ALT.prw
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Faturamento\Pontos de Entrada\CHGX5FIL.prw
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Faturamento\Pontos de Entrada\M460FIM.prw
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Faturamento\Pontos de Entrada\OM010TOK.prw
+             Type=T
+         End
+      End
+      Folder Relatorio
+         VSSPath=Nova Pasta5
+         FilesCount=1
+         File \TOTVS\P11\My Projects\Faturamento\Relatorio\Pa0R01.PRW
+             Type=T
+         End
+      End
+      Folder Rotinas
+         VSSPath=Nova Pasta6
+         FilesCount=8
+         File \TOTVS\P11\My Projects\Faturamento\Rotinas\TECRTXML.prw
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Faturamento\Rotinas\TecRt001.prw
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Faturamento\Rotinas\TECFAT03.prw
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Faturamento\Rotinas\TECFAT01.prw
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Faturamento\Rotinas\NFSTXT.PRW
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Faturamento\Rotinas\CadPa0.prw
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Faturamento\Rotinas\TECFAT05.prw
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Faturamento\Rotinas\TECFAT06.prw
+             Type=T
+         End
+      End
+      Folder Validacoes
+         VSSPath=Nova Pasta7
+         FilesCount=1
+         File \TOTVS\P11\My Projects\Faturamento\Validacoes\VldPVFrete.prw
+             Type=T
+         End
+      End
+   End
+   Project Financeiro
+      FoldersCount=3
+      Folder Boletos
+         VSSPath=Nova Pasta1
+         FilesCount=8
+         File \TOTVS\P11\My Projects\Financeiro\Boletos\TWBolSantan.PRW
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Financeiro\Boletos\TECRE001.prw
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Financeiro\Boletos\TCNABNSN.PRW
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Financeiro\Boletos\NNSantan.prw
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Financeiro\Boletos\MODBANES.PRW
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Financeiro\Boletos\BolSantan.prw
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Financeiro\Boletos\TECFAT02.PRW
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Financeiro\Boletos\TECFAT04.PRW
+             Type=T
+         End
+      End
+      Folder Rotinas
+         VSSPath=Nova Pasta2
+         FilesCount=1
+         File \TOTVS\P11\My Projects\Financeiro\Rotinas\GetCPFCNPJ.prw
+             Type=T
+         End
+      End
+      Folder Pontos de Entrada
+         VSSPath=Nova Pasta3
+         FilesCount=0
+      End
+   End
+   Project Schedule
+      FoldersCount=1
+      Folder Rotinas
+         VSSPath=Nova Pasta1
+         FilesCount=4
+         File \TOTVS\P11\My Projects\Schedule\Rotinas\Sched003.prw
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Schedule\Rotinas\Sched002.prw
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Schedule\Rotinas\Sched001.prw
+             Type=T
+         End
+         File \TOTVS\P11\My Projects\Schedule\Rotinas\EnviaEmail.prw
+             Type=T
+         End
+      End
+   End
+   Project Temp
+      FoldersCount=1
+      Folder Temp
+         VSSPath=Nova Pasta1
+         FilesCount=0
+      End
+   End
+   Project Fiscal
+      FoldersCount=1
+      Folder Rotinas
+         VSSPath=Nova Pasta1
+         FilesCount=1
+         File \TOTVS\P11\My Projects\Fiscal\Rotinas\ReadSPED.prw
+             Type=T
+         End
+      End
+   End
+End
